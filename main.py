@@ -7,6 +7,7 @@ from tutorial import tutorial
 from menu import menu
 
 #Text Based RPG
+#No checks on the selections the user makes so attempts at inputting selections different than the ones displayed might crash the program.
 
 save_prompt = input("Input 0 to start a new game or 1 to load previous save file.\n")
 
