@@ -1,0 +1,10 @@
+def save(player,inventory):
+    file_handle = open("save.txt","w")
+    file_handle.write(player.name + '\n')
+    file_handle.write(str(player.hp) + '\n')
+    file_handle.write(str(player.mp) + '\n')
+    file_handle.write(str(player.atk) + '\n')
+    file_handle.write(str(player.matk) + '\n')
+    file_handle.write(str(player.defense) + '\n')
+    file_handle.write(str(inventory['Health Potion']) + '\n')
+    file_handle.write(str(inventory['Mana Potion']) + '\n')
